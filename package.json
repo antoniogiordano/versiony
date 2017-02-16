@@ -1,5 +1,5 @@
 {
-    "name": "versiony",
+    "name": "auto-versiony",
     "version": "1.4.0",
     "description": "A module to increment version number for your code/module. Support for npm/bower/custom files.",
     "main": "index.js",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/ciena-blueplanet/versiony.git"
+        "url": "git://github.com/antoniogiordano/versiony.git"
     },
     "keywords": [
         "version",
@@ -18,12 +18,12 @@
         "package.json",
         "bower version",
         "bower",
-        "version"
+        "auto increment"
     ],
-    "author": "Radu Brehar",
+    "author": "antoniogiordano",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ciena-blueplanet/versiony/issues"
+        "url": "https://github.com/antoniogiordano/versiony/issues"
     },
     "dependencies": {}
 }

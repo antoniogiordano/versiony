@@ -1,7 +1,7 @@
-versiony
+auto-versiony
 ========
 
-Node.js module to increment version number for your code/module
+Node.js module to increment version number for your code/module with additional support to auto-increment minor and major values
 
 Installation
 -------------
