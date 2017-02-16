@@ -7,13 +7,7 @@ Installation
 -------------
 
 ```
-    npm install versiony
-```
-
-If you want to use the CLI, install
-
-```
-    npm install -g versiony-cli
+    npm install auto-versiony
 ```
 
 Usage:
@@ -276,46 +270,4 @@ Returns the current version.
                 .get()
 
     console.log(v)  // '1.0.1'
-```
-
-# CLI
-
-Usage
------
-
-Install with
-```
-    npm install -g versiony-cli
-```
-
-Example: increment the minor version
-```
-    versiony package.json --minor
-```
-
-The source file defaults to package.json, so you can easily skip it, if that's what you're using.
-
-Example: set the major version to 3 (in package.json)
-```
-    versiony --major=3
-```
-
-Example: set specific version
-```
-    versiony --version=1.2.3
-```
-
-Example: update multiple files
-```
-    versiony --patch --to=package.json,bower.json
-```
-
-Example: release new major update (bumps major and sets minor and patch to 0)
-```
-    versiony --newmajor
-```
-
-Example: release new minor update (bumps minor and sets patch to 0)
-```
-    versiony --newminor
 ```
